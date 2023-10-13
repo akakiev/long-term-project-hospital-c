@@ -9,9 +9,9 @@
   Add your open source license, GitHub uses the MIT license.
 -->
 
-# Crypto Trading Platform on C++
+# Hospital Management System in C++
 
-Trading is a primary economic concept that involves buying and selling goods and services, along with compensation paid by a buyer to a seller. Trading applications in C++ can be a good example of understanding the basic concepts of C++. Also, It can act as a mini-projects for beginners, which can help them to enhance the concepts of C++ and also can build up their resume in the initial stage.
+In this readme file, a C++ program is discussed to manage the Hospital Management System. Given data of Hospitals with the name of hospital, contact and doctors and patients below are the functionalities that needed to be implemented:
 
 </header>
 
@@ -24,7 +24,7 @@ Trading is a primary economic concept that involves buying and selling goods and
   TBD-step-1-notes.
 -->
 
-## Parts of the project:
+## Functions Supported:
 <!--
 _Welcome to "TBD-course-name"! :wave:_
 
@@ -34,28 +34,28 @@ TBD-step-1-information
 
 ### :keyboard: Activity: TBD-step-1-name
 -->
-1. Use C++ to build a crypto trading platform I: User input.
-2. Use C++ to build a crypto trading platform II: Data.
-3. Use C++ to build a crypto trading platform III: Functions.
-4. Use C++ to build a crypto trading platform IV: Objects.
-5. Use C++ to build a crypto trading platform V: Final system.
+- Print Hospital DATA
+- Print Patients data
+- SORT BY Beds Price
+- SORT BY Available Beds
+- SORT BY NAME
+- SORT BY Rating and reviews
+- Print hospital of any specific city
 
-## Problem Statement:
-1. Get account Information.
-2. Deposit Money.
-3. Withdraw Money.
-4. Buy Cryptocoins.
-5. Sell Cryptocoins.
-6. Check Transactions.
+## Approach:
+1. Create classes for both the Hospital dataset and Patient data.
+2. Initialize variables that store Hospital dataset and Patient data.
+3. Create Objects for hospitals and Patient classes that access the Hospital dataset and Patient data.
+4. Use two arrays that hold the Hospital dataset and Patient data.
+5. Implement the given functionality.
 
-## Operations to be Performed:
-1. Balance of user.
-2. Profit Loss checker.
-3. Bitcoins and Dogecoin.
-4. Choice.
-5. Withdraw amount.
-6. Predict.
-7. Total equity.
+## The important functions in the program:
+- PrintHospitalData() : It will print all the hospitals data.
+- PrintPatientData() : It will print all the hospitals data.
+- SortHospitalByName(): Sort all the hospitals from name
+- SortHospitalByRating(): Sort hospitals according to rating
+- SortByBedsAvailable() : Sort hospitals according to beds available
+- SortByBedsPrice(): Sort hospitals according to the minimum price.
 <footer>
 
 <!--
